@@ -3,12 +3,22 @@ package co.unicauca.restaurante.comunicacion.domain;
 public class DayMenu {
     int dmenID;
     TypeDay atrDay;  
+    Restaurant resID; 
     public DayMenu() {
     }
 
-    public DayMenu(int dmenID, TypeDay atrDay) {
+    public Restaurant getResID() {
+        return resID;
+    }
+
+    public void setResID(Restaurant resID) {
+        this.resID = resID;
+    }
+
+    public DayMenu(int dmenID, TypeDay atrDay, Restaurant resID) {
         this.dmenID = dmenID;
         this.atrDay = atrDay;
+        this.resID = resID;
     }
 
     public int getDmenID() {
