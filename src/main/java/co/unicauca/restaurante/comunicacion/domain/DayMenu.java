@@ -13,7 +13,6 @@ public class DayMenu {
         this.resID = resID;
     }
     
-
     public int getDmenID() {
         return dmenID;
     }
