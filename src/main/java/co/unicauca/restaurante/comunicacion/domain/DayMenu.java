@@ -1,12 +1,12 @@
 package co.unicauca.restaurante.comunicacion.domain;
 
-public class MenuDay {
+public class DayMenu {
 
     TypeDay atrDay;  
-    public MenuDay() {
+    public DayMenu() {
     }
 
-    public MenuDay(TypeDay atrDay) {
+    public DayMenu(TypeDay atrDay) {
         this.atrDay = atrDay;
     }
 
