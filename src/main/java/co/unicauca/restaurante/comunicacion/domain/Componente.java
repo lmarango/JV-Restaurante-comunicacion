@@ -14,6 +14,8 @@ public class Componente  {
     private String Tipo;
     
     private byte [] CompImage;
+    
+    public Componente(){}
 
     public Componente(int compId, String compNombre, int precio, String Tipo, byte[] CompImage) {
         this.compId = compId;
